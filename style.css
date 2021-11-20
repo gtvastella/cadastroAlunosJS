@@ -1,0 +1,185 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+			
+
+h1, h2, h3 {
+	display:none;
+}
+
+
+
+/*-----------------------------------------------formatação das imagens----------------------------------------------------*/		
+	
+
+
+.Icon {
+	width:1.2em;
+	height:1.2em;
+}
+
+			
+/*---------------------------------------------------- grid da página ---------------------------------------------------- */
+
+body{
+	
+    	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    	
+	background: linear-gradient(rgb(5, 5, 5), rgb(50, 50, 50));
+ 	background-repeat: no-repeat;
+    	background-attachment: fixed;
+
+	padding: 1em;
+	
+}
+
+/*------------------------------------------------------ cabecalho --------------------- ---------------------------------- */
+
+.cabecalho{
+	
+   	background-color: white;
+    box-shadow: 0 0 1em rgb(100, 100, 100);
+    opacity: 0.9;
+	color:black;	
+	display: grid;
+	grid-template-columns: 1fr 4fr 1fr;
+	grid-gap: 2.5em;
+	border: solid 0.3em black;
+
+}
+
+.cadastroTexto {
+	font-size: 220%;
+	padding: 0.5em;
+	text-align:center;
+}
+
+
+
+/*---------------------------------------------------- menus -------------------------------------------------------*/
+
+#menuLeft {
+	background-color: #4CAF50;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+	border-right:0.2em solid black;
+}
+
+#menuRight {
+	background-color: #4CAF50;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+	border-left:0.2em solid black;
+}
+
+
+/*-------  -------------------------------------------------- Formulário --------------------------------------------------------- */
+
+#formulario{
+
+	width:35%;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top:1%; 
+	border-radius:1em;
+	padding:1%;
+	height:35%;
+	background-color: white;
+	color: black;
+
+
+}
+
+
+input {
+  width: 100%;
+  background-color: #f1f1f1;
+  padding: 1.5% 0% ;
+  border: none;
+  text-align:center;
+  display: block;
+  margin-top:1%;
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-size:110%;
+}
+
+select {
+  width: 100%;
+  padding: 1.5% ;
+  border: none;
+  background-color: #f1f1f1;
+  text-align:center;
+  display: block;
+   font-size:110%;
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input[type=submit]{
+  background-color: #4CAF50;
+  color:white;
+  width: 100%;
+  padding: 2.5% 0% ;
+  border: none;
+  display: block;
+  cursor: pointer;
+  text-align: center;	
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size:120%;
+}	
+
+
+/*-------  -------------------------------------------------- DIVS --------------------------------------------------------- */
+#divMostrar{
+	font-size: 150%;
+	text-align:center;
+	width:66%;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top:1%;
+	border-radius:1em;
+	padding:1%;
+	background-color:#BDF3F9;
+
+}
+
+#divMostrar:hover{
+  background-color: #70CCD6;
+  transition: background-color .5s;
+  cursor: pointer;
+}
+
+/*-------  ------------------------------------------- TABELA CADASTRADOS -------------------------------------------------- */
+
+#tabela{
+
+	width:100%;
+	align-content: center;
+    border:solid gray 0.2em;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top:1%;
+	text-align:center;
+	background-color:white;
+
+}
+
+.linhaInfos{
+	width:100%;
+	font-weight:bold;
+	font-size:95%;
+}
+.linhaValores{
+	width:100%;
+	font-size:80%;
+	background-color:lightgrey;
+}
+
+
